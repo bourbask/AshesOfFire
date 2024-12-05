@@ -76,6 +76,70 @@ Before starting, ensure you have:
 
 ---
 
+## Replacing the Git Remote for a New Project
+
+To use **VanaStack** as the base for another project, follow these steps:
+
+### Step 1: Clone the VanaStack Repository
+
+```bash
+git clone https://github.com/<your-username>/VanaStack.git
+cd VanaStack
+```
+
+### Step 2: Remove the Existing Remote
+
+```bash
+git remote remove origin
+```
+
+### Step 3: Create or Use an Existing Git Repository
+
+1. If creating a new repository, initialize it on GitHub or your preferred hosting service. Do **not** add any initial files (like README).
+2. Copy the new repository URL (e.g., `https://github.com/<your-username>/<new-project-name>.git`).
+
+### Step 4: Add the New Remote
+
+```bash
+git remote add origin https://github.com/<your-username>/<new-project-name>.git
+```
+
+Verify the new remote configuration:
+
+```bash
+git remote -v
+```
+
+### Step 5: Push to the New Repository
+
+```bash
+git push -u origin main
+```
+
+If your branch is named differently, replace `main` with your branch name.
+
+### Optional: Reset Git History
+
+If you want to reset the Git history and start fresh:
+
+1. Remove the `.git` directory:
+
+   ```bash
+   rm -rf .git
+   ```
+
+2. Reinitialize Git and push to the new repository:
+
+   ```bash
+   git init
+   git remote add origin https://github.com/<your-username>/<new-project-name>.git
+   git add .
+   git commit -m "Initial commit for <new-project-name>"
+   git push -u origin main
+   ```
+
+---
+
 ## Available Scripts
 
 ### Backend
