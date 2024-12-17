@@ -1,9 +1,9 @@
 # Ashes of Fire
 
 🌐 Available in other languages:  
-- [![Français](https://img.shields.io/badge/lang-fr-blue)](docs/README-fr.md)
-- [![English](https://img.shields.io/badge/lang-en-red)](docs/README-en.md)
-- [![Español](https://img.shields.io/badge/lang-es-yellow)](docs/README-es.md)
+- [![Français](https://img.shields.io/badge/lang-fr-blue)](README-fr.md)
+- [![English](https://img.shields.io/badge/lang-en-red)](README-en.md)
+- [![Español](https://img.shields.io/badge/lang-es-yellow)](README-es.md)
 
 ## 🔥 What is **Ashes of Fire**?
 
