@@ -1,13 +1,9 @@
-Voici la traduction du document en **espagnol** :
-
----
-
 # Ashes of Fire
 
 🌐 Disponible en otros idiomas:  
-- [![Français](https://img.shields.io/badge/lang-fr-blue)](docs/README-fr.md)  
-- [![English](https://img.shields.io/badge/lang-en-red)](docs/README-en.md)  
-- [![Español](https://img.shields.io/badge/lang-es-yellow)](docs/README-es.md)  
+- [![Français](https://img.shields.io/badge/lang-fr-blue)](README-fr.md)  
+- [![English](https://img.shields.io/badge/lang-en-red)](README-en.md)  
+- [![Español](https://img.shields.io/badge/lang-es-yellow)](README-es.md)  
 
 ## 🔥 ¿Qué es **Ashes of Fire**?
 
