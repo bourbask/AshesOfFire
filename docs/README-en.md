@@ -1,7 +1,3 @@
-Here's the translated document in English:
-
----
-
 # Ashes of Fire
 
 🌐 Available in other languages:  
