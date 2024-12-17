@@ -1,24 +1,56 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import React, { FunctionComponent } from 'react';
 
-const App: React.FC = () => {
-  const [message, setMessage] = useState<string>('');
+import { Outlet } from 'react-router-dom';
+import { DeveloperBoard, LocalFireDepartment } from '@mui/icons-material';
+import DashboardIcon from '@mui/icons-material/Dashboard';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import { AppProvider } from '@toolpad/core/react-router-dom';
+import type { Navigation } from '@toolpad/core';
 
-  useEffect(() => {
-    axios.get('http://localhost:5000/api/message_2')
-      .then(response => {
-        setMessage(response.data.message);
-      })
-      .catch(error => {
-        console.error('Error fetching message:', error);
-      });
-  }, []);
+import { keyframes } from '@emotion/react';
+
+const App: FunctionComponent = () => {
+  const NAVIGATION: Navigation = [
+    {
+      kind: 'header',
+      title: 'Main items',
+    },
+    {
+      title: 'Dashboard',
+      icon: <DashboardIcon />,
+    },
+    {
+      segment: 'tools',
+      title: 'Outils',
+      icon: <CalendarMonthIcon />,
+    },
+    {
+      segment: 'articles',
+      title: 'Articles',
+      icon: <ShoppingCartIcon />,
+    },
+  ];
+
+  const rainbowKeyframes = keyframes`
+    0% { filter: hue-rotate(0deg); }
+    100% { filter: hue-rotate(360deg); }
+  `;
+
+  const BRANDING = {
+    title: 'AshesOfFire',
+    logo: <LocalFireDepartment
+      sx={{
+        fontSize: '2rem', // Adjust size as needed
+        animation: `${rainbowKeyframes} 2s linear infinite`, // Rainbow animation
+      }}
+    />,
+  };
 
   return (
-    <div style={{ textAlign: 'center', marginTop: '20px' }}>
-      <h1>Fullstack Project Example</h1>
-      <p>{message || 'Loading...'}</p>
-    </div>
+    <AppProvider navigation={NAVIGATION} branding={BRANDING}>
+      <Outlet />
+    </AppProvider>
   );
 };
 
