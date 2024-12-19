@@ -1,44 +1,20 @@
-import React, { FunctionComponent } from 'react';
+import * as React from 'react';
 
 import { Outlet } from 'react-router-dom';
-import { DeveloperBoard, LocalFireDepartment } from '@mui/icons-material';
-import DashboardIcon from '@mui/icons-material/Dashboard';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
-import { AppProvider } from '@toolpad/core/react-router-dom';
-import type { Navigation } from '@toolpad/core';
-
 import { keyframes } from '@emotion/react';
+import { LocalFireDepartment } from '@mui/icons-material';
+import { AppProvider } from '@toolpad/core/react-router-dom';
 
-const App: FunctionComponent = () => {
-  const NAVIGATION: Navigation = [
-    {
-      kind: 'header',
-      title: 'Main items',
-    },
-    {
-      title: 'Dashboard',
-      icon: <DashboardIcon />,
-    },
-    {
-      segment: 'tools',
-      title: 'Outils',
-      icon: <CalendarMonthIcon />,
-    },
-    {
-      segment: 'articles',
-      title: 'Articles',
-      icon: <ShoppingCartIcon />,
-    },
-  ];
+import { NAVIGATION } from './router/navigation';
 
+const App: React.FunctionComponent = () => {
   const rainbowKeyframes = keyframes`
     0% { filter: hue-rotate(0deg); }
     100% { filter: hue-rotate(360deg); }
   `;
 
   const BRANDING = {
-    title: 'AshesOfFire',
+    title: 'Ashes of Fire',
     logo: <LocalFireDepartment
       sx={{
         fontSize: '2rem', // Adjust size as needed
