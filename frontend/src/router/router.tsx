@@ -15,6 +15,7 @@ import Articles from '../pages/articles/main';
 // import SkillsTreeSimulatorPage from '../pages/tools/SkillsTreeSimulatorPage';
 // import PseudoGeneratorPage from '../pages/tools/PseudoGeneratorPage';
 import VersusNpcsPage from '../pages/tools/versus-npcs';
+import FrozenLabyResolverPage from '../pages/tools/frozen-laby-resolver';
 // import VersusShipsPage from '../pages/tools/versus-ships';
 
 const router = createBrowserRouter([
@@ -69,6 +70,10 @@ const router = createBrowserRouter([
               //   path: 'pseudo-generator',
               //   Component: PseudoGeneratorPage,
               // },
+              {
+                path: 'frozen-laby-resolver',
+                Component: FrozenLabyResolverPage,
+              },
               {
                 path: 'versus-npcs',
                 Component: VersusNpcsPage,

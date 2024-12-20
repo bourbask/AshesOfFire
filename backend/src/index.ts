@@ -1,19 +1,21 @@
 import express from "express";
 import cors from "cors";
+import { exec } from "child_process";
+import path from "path";
+import getScriptResults from "./utils/getScriptResults";
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.get("/api/message", (req, res) => {
-  res.json({ message: "Hello from the backend !" });
-});
+function handleGetScriptResults() {
+  const results = getScriptResults('generate_connections_json.ts');
+  console.log('DEBUG - Log results from handleGetScriptResults', results);
+}
 
-app.get("/api/message_2", (req, res) => {
-  res.json({ message: "Plop." });
-});
-
-const PORT = process.env.PORT || 5000;
+// Appel automatique au démarrage
+const PORT = process.env.PORT || 9999;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
+  handleGetScriptResults();
 });

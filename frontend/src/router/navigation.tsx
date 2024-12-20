@@ -28,6 +28,7 @@ export const NAVIGATION: Navigation = [
         { segment: 'shield-calculator', title: 'Calculateur de bouclier' },
         { segment: 'skills-tree-simulator', title: 'Simulateur d\'Arbre de Compétences' },
         { segment: 'pseudo-generator', title: 'Générateur de pseudo' },
+        { segment: 'frozen-laby-resolver', title: 'Fil d\'Ariane du Labyrinthe Gelé' },
         { segment: 'versus-npcs', title: 'Versus NPCs' },
         { segment: 'versus-ships', title: 'Versus vaisseaux' },
       ],
