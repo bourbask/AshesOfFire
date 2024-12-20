@@ -1,5 +1,5 @@
 import buildGraph from "./buildGraph";
-import decodeAddress from "./decodeAdress";
+import decodeAddress from "./decodeAddress";
 import dijkstra from "./dijkstra";
 import { Connection } from "./findShortestPath";
 
@@ -8,17 +8,18 @@ const findClosestTargetSector = (
   startSector: string,
   targetSector: number
 ): string[] => {
-  const graph = buildGraph(connections);
+  console.log("StartSector received:", startSector);
 
-  // Décoder l'adresse de départ
-  const { card, sector, portal } = decodeAddress(startSector);
+  // Construire le graphe avec des poids dynamiques
+  const graph = buildGraph(connections, startSector);
 
-  // Si le portail est manquant, générer tous les portails possibles pour ce secteur
-  const startPortals = portal
-    ? [`${card}${sector}${portal}`]
-    : [1, 2, 3, 4].map((p) => `${card}${sector}${p}`);
+  // Decode l'adresse de départ
+  const { map: startMap, sector: startSectorNumber } = decodeAddress(startSector);
 
-  // Identifier les portails du secteur cible
+  // Générer tous les portails pour le secteur de départ
+  const startPortals = [1, 2, 3, 4].map((portal) => `${startMap}${startSectorNumber}${portal}`);
+
+  // Trouver tous les portails dans le secteur cible
   const targetPortals = connections
     .map((conn) => conn.to)
     .filter((portal) => {
@@ -26,12 +27,15 @@ const findClosestTargetSector = (
       return decoded.sector === targetSector;
     });
 
+  console.log("Start portals:", startPortals); // Affiche tous les portails de départ
+  console.log("Target portals:", targetPortals); // Affiche les portails correspondant au secteur cible
+
   if (targetPortals.length === 0) {
-    console.error(`Aucun secteur ${targetSector} trouvé.`);
+    console.error(`No portals found for sector ${targetSector}.`);
     return [];
   }
 
-  // Trouver le chemin le plus court
+  // Trouver le chemin le plus court en itérant sur toutes les combinaisons start → end
   let shortestPath: string[] = [];
   let shortestDistance = Infinity;
 

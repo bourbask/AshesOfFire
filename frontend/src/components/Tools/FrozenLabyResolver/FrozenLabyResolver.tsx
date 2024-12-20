@@ -2,13 +2,13 @@ import React, { useEffect, useState } from "react";
 import { Box, TextField, Button, Typography } from "@mui/material";
 
 // Importer les utilitaires
-import decodeAddress from "./utils/decodeAdress";
-import buildGraph from "./utils/buildGraph";
-import dijkstra from "./utils/dijkstra";
+import buildGraph from "../../../utils/buildGraph";
+import findClosestTargetSector from "../../../utils/findClosestTargetSector";
+import decodeAddress from "../../../utils/decodeAddress";
+import dijkstra from "../../../utils/dijkstra";
 
 // Importer les données JSON
 import labyrinthConnections from "../../../data/winter_event/labyrinth_connections.json";
-import findClosestTargetSector from "./utils/findClosestTargetSector";
 
 const FrozenLabyResolver: React.FC = () => {
   // État pour les entrées utilisateur
@@ -37,7 +37,7 @@ const FrozenLabyResolver: React.FC = () => {
         const startDecoded = decodeAddress(start);
         const startAddress = startDecoded.portal
             ? start
-            : `${startDecoded.card}${startDecoded.sector}1`; // Si portail manquant, assume le premier
+            : `${startDecoded.map}${startDecoded.sector}1`; // Si portail manquant, assume le premier
 
         const result = dijkstra(graph, startAddress, end);
         setPath(result.path);
