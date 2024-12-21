@@ -10,4 +10,4 @@ const allNpcs = {
 
 export default allNpcs;
 export type AllNpcs = typeof allNpcs;
-export type NpcNames = keyof AllNpcs;
+export type NpcNames = Omit<keyof AllNpcs, number>;
