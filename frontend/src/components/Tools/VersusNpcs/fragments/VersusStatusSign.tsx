@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import * as React from 'react';
 
 import {
   Box,
@@ -9,9 +9,10 @@ import {
   CardActions,
   Modal,
 } from '@mui/material';
+import { NpcNames } from '../../../../data/npcs/main';
 
 type VersusStatusSignProps = {
-  onStartBattle: () => { winner: string; stats: CombatStats }; // Callback pour démarrer le combat
+  onStartBattle: () => { winner: NpcNames; stats: CombatStats }; // Callback pour démarrer le combat
   onReset: () => void; // Callback pour réinitialiser les NPCs
 };
 
@@ -26,10 +27,10 @@ const VersusStatusSign: React.FunctionComponent<VersusStatusSignProps> = ({
   onStartBattle,
   onReset,
 }) => {
-  const [battleStarted, setBattleStarted] = useState(false);
-  const [battleFinished, setBattleFinished] = useState(false);
-  const [winner, setWinner] = useState<string | null>(null);
-  const [stats, setStats] = useState<CombatStats | null>(null);
+  const [battleStarted, setBattleStarted] = React.useState(false);
+  const [battleFinished, setBattleFinished] = React.useState(false);
+  const [winner, setWinner] = React.useState<NpcNames | null>(null);
+  const [stats, setStats] = React.useState<CombatStats | null>(null);
 
   const handleStartBattle = () => {
     const { winner, stats } = onStartBattle();
@@ -98,7 +99,7 @@ const VersusStatusSign: React.FunctionComponent<VersusStatusSignProps> = ({
           <Card sx={{ minWidth: 300, p: 3 }}>
             <CardContent>
               <Typography variant="h4" color="success.main" gutterBottom>
-                {winner} a gagné !
+                {`${winner ? winner : '???'}`} a gagné !
               </Typography>
               <Typography variant="body1">
                 Dégâts subits : {stats.damageReceived}

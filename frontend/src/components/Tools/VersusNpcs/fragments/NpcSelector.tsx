@@ -1,6 +1,6 @@
-import React from 'react';
+import * as React from 'react';
 
-import { FormControl, InputLabel, Select, MenuItem } from '@mui/material';
+import { FormControl, InputLabel, Select, MenuItem, SelectProps } from '@mui/material';
 
 import allNpcs, { type NpcNames } from '../../../../data/npcs/main';
 
@@ -11,7 +11,7 @@ export type NpcSelectorProps = {
 const NpcSelector: React.FunctionComponent<NpcSelectorProps> = ({ onSelect }) => {
   const npcNames = Object.keys(allNpcs) as (NpcNames)[];
 
-  const handleChange = (event: React.ChangeEvent<{ value: unknown }>) => {
+  const handleChange: SelectProps['onChange'] = (event) => {
     onSelect(event.target.value as NpcNames | null);
   };
 
@@ -25,8 +25,8 @@ const NpcSelector: React.FunctionComponent<NpcSelectorProps> = ({ onSelect }) =>
       >
         <MenuItem value="">None</MenuItem>
         {npcNames.map((name) => (
-          <MenuItem key={name} value={name}>
-            {name}
+          <MenuItem key={`${name}`} value={`${name}`}>
+            {`${name}`}
           </MenuItem>
         ))}
       </Select>
