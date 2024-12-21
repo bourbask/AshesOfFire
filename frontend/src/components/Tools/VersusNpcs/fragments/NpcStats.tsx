@@ -17,7 +17,7 @@ const NpcStats: React.FunctionComponent<NpcStatsProps> = ({ npcName }) => {
     );
   }
 
-  const npc = allNpcs[npcName];
+  const npc = allNpcs[npcName as string];
 
   return (
     <Card sx={{ mt: 2 }}>
