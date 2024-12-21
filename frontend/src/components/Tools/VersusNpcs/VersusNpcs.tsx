@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import * as React from 'react';
 
 import { Box } from '@mui/material';
 
@@ -6,9 +6,7 @@ import { NpcNames } from '../../../data/npcs/main';
 import VersusSide from './fragments/VersusSide';
 import VersusStatusSign from './fragments/VersusStatusSign';
 
-type VersusNpcsProps = {};
-
-const VersusNpcs: FunctionComponent<VersusNpcsProps> = function ({}) {
+const VersusNpcs: React.FunctionComponent = function () {
     const [npc1, setNpc1] = React.useState<NpcNames | null>(null);
     const [npc2, setNpc2] = React.useState<NpcNames | null>(null);
 
