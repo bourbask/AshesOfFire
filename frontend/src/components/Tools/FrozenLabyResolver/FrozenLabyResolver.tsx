@@ -10,7 +10,7 @@ import dijkstra from "../../../utils/dijkstra";
 // Importer les données JSON
 import labyrinthConnections from "../../../data/winter_event/labyrinth_connections.json";
 
-const FrozenLabyResolver: React.FC = () => {
+const FrozenLabyResolver: React.FunctionComponent = () => {
   // État pour les entrées utilisateur
   const [start, setStart] = useState(""); // Adresse de départ
   const [end, setEnd] = useState(""); // Adresse de destination
