@@ -1,0 +1,26 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      target: base
+    environment:
+      NODE_ENV: "development"
+    volumes:
+      - ./backend:/usr/src/app
+    command: ["bun", "run", "dev"]
+    ports:
+      - "3000:3000"
+    restart: on-failure
+
+  frontend:
+    build:
+      context: ./frontend
+      target: base
+    environment:
+      NODE_ENV: "development"
+    volumes:
+      - ./frontend:/usr/src/app
+    command: bash -c "bun install && bun run dev"
+    ports:
+      - "3001:3001"
+    restart: on-failure
