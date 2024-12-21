@@ -1,9 +1,7 @@
 import * as React from 'react';
 
-import { Box, Button, Grid2, IconButton, Input, Typography } from '@mui/material';
+import { Box, Button, Grid2, IconButton, Input, Typography, useTheme } from '@mui/material';
 import RefreshIcon from '@mui/icons-material/Refresh';
-
-type PseudoGeneratorProps = {};
 
 // Liste des caractères spéciaux pour chaque lettre
 const specialCharacters: Record<string, string[]> = {
@@ -67,7 +65,7 @@ const getRandomSpecialCharacter = (char: string): string => {
   return specials[Math.floor(Math.random() * specials.length)];
 };
 
-const PseudoGenerator: React.FunctionComponent<PseudoGeneratorProps> = () => {
+const PseudoGenerator: React.FunctionComponent = () => {
     const [input, setInput] = React.useState<string>('');
     const [output, setOutput] = React.useState<string>('');
     const [history, setHistory] = React.useState<string[]>([]);
@@ -98,6 +96,8 @@ const PseudoGenerator: React.FunctionComponent<PseudoGeneratorProps> = () => {
     navigator.clipboard.writeText(output);
     alert('Pseudo copié dans le presse-papiers !');
   };
+
+  const theme = useTheme();
 
   return (
     <Box style={{ fontFamily: 'Arial, sans-serif', padding: '20px', maxWidth: '400px' }}>
@@ -135,7 +135,7 @@ const PseudoGenerator: React.FunctionComponent<PseudoGeneratorProps> = () => {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
-          backgroundColor: '#f9f9f9',
+          backgroundColor: theme.palette.grey[900],
           padding: '10px',
           borderRadius: '4px',
           border: '1px solid #ddd',
@@ -169,7 +169,7 @@ const PseudoGenerator: React.FunctionComponent<PseudoGeneratorProps> = () => {
                 onClick={() => setOutput(item)}
                 style={{
                   textAlign: 'left',
-                  backgroundColor: '#f0f0f0',
+                  backgroundColor: theme.palette.grey[900],
                   padding: '8px',
                   borderRadius: '4px',
                   border: '1px solid #ddd',
@@ -196,15 +196,15 @@ const PseudoGenerator: React.FunctionComponent<PseudoGeneratorProps> = () => {
         <Typography variant="h6">Liste des caractères spéciaux :</Typography>
         <Grid2 container spacing={2} style={{ marginTop: '10px' }}>
           {Object.entries(specialCharacters).map(([letter, specials]) => (
-            <Grid2 xs={12} sm={6} md={4} key={letter}>
+            <Grid2 key={letter}>
                 <>
                     <Typography style={{ fontWeight: 'bold' }}>{letter} :</Typography>
                     <Box
                         style={{
-                        display: 'flex',
-                        flexWrap: 'wrap',
-                        gap: '5px',
-                        marginTop: '5px',
+                          display: 'flex',
+                          flexWrap: 'wrap',
+                          gap: '5px',
+                          marginTop: '5px',
                         }}
                     >
                         {specials.map((specialChar, index) => (
@@ -213,9 +213,9 @@ const PseudoGenerator: React.FunctionComponent<PseudoGeneratorProps> = () => {
                             onClick={() => addCharacterToCustomPseudo(specialChar)}
                             variant="outlined"
                             style={{
-                            padding: '5px',
-                            minWidth: '30px',
-                            textAlign: 'center',
+                              padding: '5px',
+                              minWidth: '30px',
+                              textAlign: 'center',
                             }}
                         >
                             {specialChar}
