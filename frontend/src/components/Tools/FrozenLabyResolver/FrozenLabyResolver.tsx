@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import { Box, TextField, Button, Typography } from "@mui/material";
 
 // Importer les utilitaires
@@ -18,45 +18,47 @@ const FrozenLabyResolver: React.FC = () => {
   const [distance, setDistance] = useState<number | null>(null); // Distance totale
 
   // Construire le graphe une fois pour toutes
-  const graph = React.useMemo(() => buildGraph(labyrinthConnections.connections), []);
+  const generateGraph = (startAddress: string) => {
+    return buildGraph(labyrinthConnections.connections, startAddress);
+  };
 
-    // Handler pour trouver le chemin le plus court
-    const handleFindPath = () => {
+  // Handler pour trouver le chemin le plus court
+  const handleFindPath = useCallback(() => {
     try {
         if (/^[1-4]$/.test(end)) {
-        const targetSector = parseInt(end, 10);
-        const result = findClosestTargetSector(
-            labyrinthConnections.connections,
-            start,
-            targetSector
-        );
+          const targetSector = parseInt(end, 10);
+          const result = findClosestTargetSector(
+              labyrinthConnections.connections,
+              start,
+              targetSector
+          );
 
-        setPath(result);
-        setDistance(result.length > 0 ? result.length - 1 : null);
+          setPath(result);
+          setDistance(result.length > 0 ? result.length - 1 : null);
         } else {
-        const startDecoded = decodeAddress(start);
-        const startAddress = startDecoded.portal
-            ? start
-            : `${startDecoded.map}${startDecoded.sector}1`; // Si portail manquant, assume le premier
+          const startDecoded = decodeAddress(start);
+          const startAddress = startDecoded.portal
+              ? start
+              : `${startDecoded.map}${startDecoded.sector}1`; // Si portail manquant, assume le premier
 
-        const result = dijkstra(graph, startAddress, end);
-        setPath(result.path);
-        setDistance(result.distance);
+          const result = dijkstra(generateGraph(start), startAddress, end);
+          setPath(result.path);
+          setDistance(result.distance);
         }
     } catch (error) {
         console.error("Erreur lors de la recherche du chemin :", error);
         setPath([]);
         setDistance(null);
     }
-    };
+  }, [end, start]);
 
 
-useEffect(() => {
-    // Pour ATC13 vers ATA41
-    // On devrait obtenir un truc du genre :
-    // ATC13 -> ATB34 -> OR11 -> ATC24 -> MA24 -> ATA41
-    console.log(path, distance);
-}, [distance, path]);
+  useEffect(() => {
+      // Pour ATC13 vers ATA41
+      // On devrait obtenir un truc du genre :
+      // ATC13 -> ATB34 -> OR11 -> ATC24 -> MA24 -> ATA41
+      console.log(path, distance);
+  }, [distance, path]);
 
   return (
     <Box sx={{ p: 4 }}>
