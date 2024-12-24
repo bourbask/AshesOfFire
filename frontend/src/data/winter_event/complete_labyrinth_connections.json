@@ -1,0 +1,2564 @@
+{
+  "connections": [
+    {
+      "from": "ATA11",
+      "to": "ER13",
+      "weight": 0
+    },
+    {
+      "from": "ER13",
+      "to": "ATA11",
+      "weight": 0
+    },
+    {
+      "from": "ATA12",
+      "to": "SI44",
+      "weight": 0
+    },
+    {
+      "from": "SI44",
+      "to": "ATA12",
+      "weight": 0
+    },
+    {
+      "from": "ATA13",
+      "to": "BO23",
+      "weight": 0
+    },
+    {
+      "from": "BO23",
+      "to": "ATA13",
+      "weight": 0
+    },
+    {
+      "from": "ATA14",
+      "to": "ATB13",
+      "weight": 0
+    },
+    {
+      "from": "ATB13",
+      "to": "ATA14",
+      "weight": 0
+    },
+    {
+      "from": "ATA21",
+      "to": "HE22",
+      "weight": 0
+    },
+    {
+      "from": "HE22",
+      "to": "ATA21",
+      "weight": 0
+    },
+    {
+      "from": "ATA22",
+      "to": "HE12",
+      "weight": 0
+    },
+    {
+      "from": "HE12",
+      "to": "ATA22",
+      "weight": 0
+    },
+    {
+      "from": "ATA23",
+      "to": "BO44",
+      "weight": 0
+    },
+    {
+      "from": "BO44",
+      "to": "ATA23",
+      "weight": 0
+    },
+    {
+      "from": "ATA24",
+      "to": "AU21",
+      "weight": 0
+    },
+    {
+      "from": "AU21",
+      "to": "ATA24",
+      "weight": 0
+    },
+    {
+      "from": "ATA31",
+      "to": "ER14",
+      "weight": 0
+    },
+    {
+      "from": "ER14",
+      "to": "ATA31",
+      "weight": 0
+    },
+    {
+      "from": "ATA32",
+      "to": "SI34",
+      "weight": 0
+    },
+    {
+      "from": "SI34",
+      "to": "ATA32",
+      "weight": 0
+    },
+    {
+      "from": "ATA33",
+      "to": "CY34",
+      "weight": 0
+    },
+    {
+      "from": "CY34",
+      "to": "ATA33",
+      "weight": 0
+    },
+    {
+      "from": "ATA34",
+      "to": "BO13",
+      "weight": 0
+    },
+    {
+      "from": "BO13",
+      "to": "ATA34",
+      "weight": 0
+    },
+    {
+      "from": "ATA41",
+      "to": "MA23",
+      "weight": 0
+    },
+    {
+      "from": "MA23",
+      "to": "ATA41",
+      "weight": 0
+    },
+    {
+      "from": "ATA42",
+      "to": "AQ21",
+      "weight": 0
+    },
+    {
+      "from": "AQ21",
+      "to": "ATA42",
+      "weight": 0
+    },
+    {
+      "from": "ATA43",
+      "to": "SI31",
+      "weight": 0
+    },
+    {
+      "from": "SI31",
+      "to": "ATA43",
+      "weight": 0
+    },
+    {
+      "from": "ATA44",
+      "to": "AQ32",
+      "weight": 0
+    },
+    {
+      "from": "AQ32",
+      "to": "ATA44",
+      "weight": 0
+    },
+    {
+      "from": "ATB11",
+      "to": "MA12",
+      "weight": 0
+    },
+    {
+      "from": "MA12",
+      "to": "ATB11",
+      "weight": 0
+    },
+    {
+      "from": "ATB12",
+      "to": "MA13",
+      "weight": 0
+    },
+    {
+      "from": "MA13",
+      "to": "ATB12",
+      "weight": 0
+    },
+    {
+      "from": "ATB13",
+      "to": "ATA14",
+      "weight": 0
+    },
+    {
+      "from": "ATA14",
+      "to": "ATB13",
+      "weight": 0
+    },
+    {
+      "from": "ATB14",
+      "to": "SI14",
+      "weight": 0
+    },
+    {
+      "from": "SI14",
+      "to": "ATB14",
+      "weight": 0
+    },
+    {
+      "from": "ATB21",
+      "to": "PE44",
+      "weight": 0
+    },
+    {
+      "from": "PE44",
+      "to": "ATB21",
+      "weight": 0
+    },
+    {
+      "from": "ATB22",
+      "to": "OR12",
+      "weight": 0
+    },
+    {
+      "from": "OR12",
+      "to": "ATB22",
+      "weight": 0
+    },
+    {
+      "from": "ATB23",
+      "to": "OR31",
+      "weight": 0
+    },
+    {
+      "from": "OR31",
+      "to": "ATB23",
+      "weight": 0
+    },
+    {
+      "from": "ATB24",
+      "to": "AQ24",
+      "weight": 0
+    },
+    {
+      "from": "AQ24",
+      "to": "ATB24",
+      "weight": 0
+    },
+    {
+      "from": "ATB31",
+      "to": "HE14",
+      "weight": 0
+    },
+    {
+      "from": "HE14",
+      "to": "ATB31",
+      "weight": 0
+    },
+    {
+      "from": "ATB32",
+      "to": "OR11",
+      "weight": 0
+    },
+    {
+      "from": "OR11",
+      "to": "ATB32",
+      "weight": 0
+    },
+    {
+      "from": "ATB33",
+      "to": "CY32",
+      "weight": 0
+    },
+    {
+      "from": "CY32",
+      "to": "ATB33",
+      "weight": 0
+    },
+    {
+      "from": "ATB34",
+      "to": "ATC13",
+      "weight": 0
+    },
+    {
+      "from": "ATC13",
+      "to": "ATB34",
+      "weight": 0
+    },
+    {
+      "from": "ATB41",
+      "to": "HE42",
+      "weight": 0
+    },
+    {
+      "from": "HE42",
+      "to": "ATB41",
+      "weight": 0
+    },
+    {
+      "from": "ATB42",
+      "to": "MA31",
+      "weight": 0
+    },
+    {
+      "from": "MA31",
+      "to": "ATB42",
+      "weight": 0
+    },
+    {
+      "from": "ATB43",
+      "to": "SA33",
+      "weight": 0
+    },
+    {
+      "from": "SA33",
+      "to": "ATB43",
+      "weight": 0
+    },
+    {
+      "from": "ATB44",
+      "to": "ER44",
+      "weight": 0
+    },
+    {
+      "from": "ER44",
+      "to": "ATB44",
+      "weight": 0
+    },
+    {
+      "from": "ATC11",
+      "to": "OR43",
+      "weight": 0
+    },
+    {
+      "from": "OR43",
+      "to": "ATC11",
+      "weight": 0
+    },
+    {
+      "from": "ATC12",
+      "to": "OR44",
+      "weight": 0
+    },
+    {
+      "from": "OR44",
+      "to": "ATC12",
+      "weight": 0
+    },
+    {
+      "from": "ATC13",
+      "to": "ATB34",
+      "weight": 0
+    },
+    {
+      "from": "ATB34",
+      "to": "ATC13",
+      "weight": 0
+    },
+    {
+      "from": "ATC14",
+      "to": "PE41",
+      "weight": 0
+    },
+    {
+      "from": "PE41",
+      "to": "ATC14",
+      "weight": 0
+    },
+    {
+      "from": "ATC21",
+      "to": "ER23",
+      "weight": 0
+    },
+    {
+      "from": "ER23",
+      "to": "ATC21",
+      "weight": 0
+    },
+    {
+      "from": "ATC22",
+      "to": "SA21",
+      "weight": 0
+    },
+    {
+      "from": "SA21",
+      "to": "ATC22",
+      "weight": 0
+    },
+    {
+      "from": "ATC23",
+      "to": "MA24",
+      "weight": 0
+    },
+    {
+      "from": "MA24",
+      "to": "ATC23",
+      "weight": 0
+    },
+    {
+      "from": "ATC24",
+      "to": "OR13",
+      "weight": 0
+    },
+    {
+      "from": "OR13",
+      "to": "ATC24",
+      "weight": 0
+    },
+    {
+      "from": "ATC31",
+      "to": "SA43",
+      "weight": 0
+    },
+    {
+      "from": "SA43",
+      "to": "ATC31",
+      "weight": 0
+    },
+    {
+      "from": "ATC32",
+      "to": "VO13",
+      "weight": 0
+    },
+    {
+      "from": "VO13",
+      "to": "ATC32",
+      "weight": 0
+    },
+    {
+      "from": "ATC33",
+      "to": "PE32",
+      "weight": 0
+    },
+    {
+      "from": "PE32",
+      "to": "ATC33",
+      "weight": 0
+    },
+    {
+      "from": "ATC34",
+      "to": "AQ33",
+      "weight": 0
+    },
+    {
+      "from": "AQ33",
+      "to": "ATC34",
+      "weight": 0
+    },
+    {
+      "from": "ATC41",
+      "to": "BO14",
+      "weight": 0
+    },
+    {
+      "from": "BO14",
+      "to": "ATC41",
+      "weight": 0
+    },
+    {
+      "from": "ATC42",
+      "to": "SA12",
+      "weight": 0
+    },
+    {
+      "from": "SA12",
+      "to": "ATC42",
+      "weight": 0
+    },
+    {
+      "from": "ATC43",
+      "to": "AU42",
+      "weight": 0
+    },
+    {
+      "from": "AU42",
+      "to": "ATC43",
+      "weight": 0
+    },
+    {
+      "from": "ATC44",
+      "to": "OR24",
+      "weight": 0
+    },
+    {
+      "from": "OR24",
+      "to": "ATC44",
+      "weight": 0
+    },
+    {
+      "from": "AL11",
+      "to": "BO42",
+      "weight": 0
+    },
+    {
+      "from": "BO42",
+      "to": "AL11",
+      "weight": 0
+    },
+    {
+      "from": "AL12",
+      "to": "OR34",
+      "weight": 0
+    },
+    {
+      "from": "OR34",
+      "to": "AL12",
+      "weight": 0
+    },
+    {
+      "from": "AL13",
+      "to": "MA21",
+      "weight": 0
+    },
+    {
+      "from": "MA21",
+      "to": "AL13",
+      "weight": 0
+    },
+    {
+      "from": "AL14",
+      "to": "AU34",
+      "weight": 0
+    },
+    {
+      "from": "AU34",
+      "to": "AL14",
+      "weight": 0
+    },
+    {
+      "from": "AL21",
+      "to": "SI13",
+      "weight": 0
+    },
+    {
+      "from": "SI13",
+      "to": "AL21",
+      "weight": 0
+    },
+    {
+      "from": "AL22",
+      "to": "AL32",
+      "weight": 0
+    },
+    {
+      "from": "AL32",
+      "to": "AL22",
+      "weight": 0
+    },
+    {
+      "from": "AL23",
+      "to": "CY22",
+      "weight": 0
+    },
+    {
+      "from": "CY22",
+      "to": "AL23",
+      "weight": 0
+    },
+    {
+      "from": "AL24",
+      "to": "SI23",
+      "weight": 0
+    },
+    {
+      "from": "SI23",
+      "to": "AL24",
+      "weight": 0
+    },
+    {
+      "from": "AL31",
+      "to": "VO32",
+      "weight": 0
+    },
+    {
+      "from": "VO32",
+      "to": "AL31",
+      "weight": 0
+    },
+    {
+      "from": "AL32",
+      "to": "AL22",
+      "weight": 0
+    },
+    {
+      "from": "AL22",
+      "to": "AL32",
+      "weight": 0
+    },
+    {
+      "from": "AL33",
+      "to": "AQ23",
+      "weight": 0
+    },
+    {
+      "from": "AQ23",
+      "to": "AL33",
+      "weight": 0
+    },
+    {
+      "from": "AL34",
+      "to": "AU41",
+      "weight": 0
+    },
+    {
+      "from": "AU41",
+      "to": "AL34",
+      "weight": 0
+    },
+    {
+      "from": "AL41",
+      "to": "HE44",
+      "weight": 0
+    },
+    {
+      "from": "HE44",
+      "to": "AL41",
+      "weight": 0
+    },
+    {
+      "from": "AL42",
+      "to": "CY12",
+      "weight": 0
+    },
+    {
+      "from": "CY12",
+      "to": "AL42",
+      "weight": 0
+    },
+    {
+      "from": "AL43",
+      "to": "SA13",
+      "weight": 0
+    },
+    {
+      "from": "SA13",
+      "to": "AL43",
+      "weight": 0
+    },
+    {
+      "from": "AL44",
+      "to": "AU44",
+      "weight": 0
+    },
+    {
+      "from": "AU44",
+      "to": "AL44",
+      "weight": 0
+    },
+    {
+      "from": "AQ11",
+      "to": "AQ42",
+      "weight": 0
+    },
+    {
+      "from": "AQ42",
+      "to": "AQ11",
+      "weight": 0
+    },
+    {
+      "from": "AQ12",
+      "to": "MA43",
+      "weight": 0
+    },
+    {
+      "from": "MA43",
+      "to": "AQ12",
+      "weight": 0
+    },
+    {
+      "from": "AQ13",
+      "to": "BO33",
+      "weight": 0
+    },
+    {
+      "from": "BO33",
+      "to": "AQ13",
+      "weight": 0
+    },
+    {
+      "from": "AQ14",
+      "to": "SI22",
+      "weight": 0
+    },
+    {
+      "from": "SI22",
+      "to": "AQ14",
+      "weight": 0
+    },
+    {
+      "from": "AQ21",
+      "to": "ATA42",
+      "weight": 0
+    },
+    {
+      "from": "ATA42",
+      "to": "AQ21",
+      "weight": 0
+    },
+    {
+      "from": "AQ22",
+      "to": "SA34",
+      "weight": 0
+    },
+    {
+      "from": "SA34",
+      "to": "AQ22",
+      "weight": 0
+    },
+    {
+      "from": "AQ23",
+      "to": "AL33",
+      "weight": 0
+    },
+    {
+      "from": "AL33",
+      "to": "AQ23",
+      "weight": 0
+    },
+    {
+      "from": "AQ24",
+      "to": "ATB24",
+      "weight": 0
+    },
+    {
+      "from": "ATB24",
+      "to": "AQ24",
+      "weight": 0
+    },
+    {
+      "from": "AQ31",
+      "to": "CY33",
+      "weight": 0
+    },
+    {
+      "from": "CY33",
+      "to": "AQ31",
+      "weight": 0
+    },
+    {
+      "from": "AQ32",
+      "to": "ATA44",
+      "weight": 0
+    },
+    {
+      "from": "ATA44",
+      "to": "AQ32",
+      "weight": 0
+    },
+    {
+      "from": "AQ33",
+      "to": "ATC34",
+      "weight": 0
+    },
+    {
+      "from": "ATC34",
+      "to": "AQ33",
+      "weight": 0
+    },
+    {
+      "from": "AQ34",
+      "to": "VO43",
+      "weight": 0
+    },
+    {
+      "from": "VO43",
+      "to": "AQ34",
+      "weight": 0
+    },
+    {
+      "from": "AQ41",
+      "to": "BO34",
+      "weight": 0
+    },
+    {
+      "from": "BO34",
+      "to": "AQ41",
+      "weight": 0
+    },
+    {
+      "from": "AQ42",
+      "to": "AQ11",
+      "weight": 0
+    },
+    {
+      "from": "AQ11",
+      "to": "AQ42",
+      "weight": 0
+    },
+    {
+      "from": "AQ43",
+      "to": "ER31",
+      "weight": 0
+    },
+    {
+      "from": "ER31",
+      "to": "AQ43",
+      "weight": 0
+    },
+    {
+      "from": "AQ44",
+      "to": "BO31",
+      "weight": 0
+    },
+    {
+      "from": "BO31",
+      "to": "AQ44",
+      "weight": 0
+    },
+    {
+      "from": "AU11",
+      "to": "VO23",
+      "weight": 0
+    },
+    {
+      "from": "VO23",
+      "to": "AU11",
+      "weight": 0
+    },
+    {
+      "from": "AU12",
+      "to": "VO34",
+      "weight": 0
+    },
+    {
+      "from": "VO34",
+      "to": "AU12",
+      "weight": 0
+    },
+    {
+      "from": "AU13",
+      "to": "PE22",
+      "weight": 0
+    },
+    {
+      "from": "PE22",
+      "to": "AU13",
+      "weight": 0
+    },
+    {
+      "from": "AU14",
+      "to": "AU31",
+      "weight": 0
+    },
+    {
+      "from": "AU31",
+      "to": "AU14",
+      "weight": 0
+    },
+    {
+      "from": "AU21",
+      "to": "ATA24",
+      "weight": 0
+    },
+    {
+      "from": "ATA24",
+      "to": "AU21",
+      "weight": 0
+    },
+    {
+      "from": "AU22",
+      "to": "SI41",
+      "weight": 0
+    },
+    {
+      "from": "SI41",
+      "to": "AU22",
+      "weight": 0
+    },
+    {
+      "from": "AU23",
+      "to": "SA24",
+      "weight": 0
+    },
+    {
+      "from": "SA24",
+      "to": "AU23",
+      "weight": 0
+    },
+    {
+      "from": "AU24",
+      "to": "ER32",
+      "weight": 0
+    },
+    {
+      "from": "ER32",
+      "to": "AU24",
+      "weight": 0
+    },
+    {
+      "from": "AU31",
+      "to": "AU14",
+      "weight": 0
+    },
+    {
+      "from": "AU14",
+      "to": "AU31",
+      "weight": 0
+    },
+    {
+      "from": "AU32",
+      "to": "PE13",
+      "weight": 0
+    },
+    {
+      "from": "PE13",
+      "to": "AU32",
+      "weight": 0
+    },
+    {
+      "from": "AU33",
+      "to": "ER43",
+      "weight": 0
+    },
+    {
+      "from": "ER43",
+      "to": "AU33",
+      "weight": 0
+    },
+    {
+      "from": "AU34",
+      "to": "AL14",
+      "weight": 0
+    },
+    {
+      "from": "AL14",
+      "to": "AU34",
+      "weight": 0
+    },
+    {
+      "from": "AU41",
+      "to": "AL34",
+      "weight": 0
+    },
+    {
+      "from": "AL34",
+      "to": "AU41",
+      "weight": 0
+    },
+    {
+      "from": "AU42",
+      "to": "ATC43",
+      "weight": 0
+    },
+    {
+      "from": "ATC43",
+      "to": "AU42",
+      "weight": 0
+    },
+    {
+      "from": "AU43",
+      "to": "ER11",
+      "weight": 0
+    },
+    {
+      "from": "ER11",
+      "to": "AU43",
+      "weight": 0
+    },
+    {
+      "from": "AU44",
+      "to": "AL44",
+      "weight": 0
+    },
+    {
+      "from": "AL44",
+      "to": "AU44",
+      "weight": 0
+    },
+    {
+      "from": "BO11",
+      "to": "BO22",
+      "weight": 0
+    },
+    {
+      "from": "BO22",
+      "to": "BO11",
+      "weight": 0
+    },
+    {
+      "from": "BO12",
+      "to": "ATA34",
+      "weight": 0
+    },
+    {
+      "from": "ATA34",
+      "to": "BO12",
+      "weight": 0
+    },
+    {
+      "from": "BO13",
+      "to": "SI32",
+      "weight": 0
+    },
+    {
+      "from": "SI32",
+      "to": "BO13",
+      "weight": 0
+    },
+    {
+      "from": "BO14",
+      "to": "ATC41",
+      "weight": 0
+    },
+    {
+      "from": "ATC41",
+      "to": "BO14",
+      "weight": 0
+    },
+    {
+      "from": "BO21",
+      "to": "CY14",
+      "weight": 0
+    },
+    {
+      "from": "CY14",
+      "to": "BO21",
+      "weight": 0
+    },
+    {
+      "from": "BO22",
+      "to": "CO11",
+      "weight": 0
+    },
+    {
+      "from": "CO11",
+      "to": "BO22",
+      "weight": 0
+    },
+    {
+      "from": "BO23",
+      "to": "ATA13",
+      "weight": 0
+    },
+    {
+      "from": "ATA13",
+      "to": "BO23",
+      "weight": 0
+    },
+    {
+      "from": "BO24",
+      "to": "MA44",
+      "weight": 0
+    },
+    {
+      "from": "MA44",
+      "to": "BO24",
+      "weight": 0
+    },
+    {
+      "from": "BO31",
+      "to": "AQ44",
+      "weight": 0
+    },
+    {
+      "from": "AQ44",
+      "to": "BO31",
+      "weight": 0
+    },
+    {
+      "from": "BO32",
+      "to": "OR41",
+      "weight": 0
+    },
+    {
+      "from": "OR41",
+      "to": "BO32",
+      "weight": 0
+    },
+    {
+      "from": "BO33",
+      "to": "AQ13",
+      "weight": 0
+    },
+    {
+      "from": "AQ13",
+      "to": "BO33",
+      "weight": 0
+    },
+    {
+      "from": "BO34",
+      "to": "AQ41",
+      "weight": 0
+    },
+    {
+      "from": "AQ41",
+      "to": "BO34",
+      "weight": 0
+    },
+    {
+      "from": "BO41",
+      "to": "VO14",
+      "weight": 0
+    },
+    {
+      "from": "VO14",
+      "to": "BO41",
+      "weight": 0
+    },
+    {
+      "from": "BO42",
+      "to": "AL11",
+      "weight": 0
+    },
+    {
+      "from": "AL11",
+      "to": "BO42",
+      "weight": 0
+    },
+    {
+      "from": "BO43",
+      "to": "PE24",
+      "weight": 0
+    },
+    {
+      "from": "PE24",
+      "to": "BO43",
+      "weight": 0
+    },
+    {
+      "from": "BO44",
+      "to": "ATA23",
+      "weight": 0
+    },
+    {
+      "from": "ATA23",
+      "to": "BO44",
+      "weight": 0
+    },
+    {
+      "from": "CY11",
+      "to": "OR42",
+      "weight": 0
+    },
+    {
+      "from": "OR42",
+      "to": "CY11",
+      "weight": 0
+    },
+    {
+      "from": "CY12",
+      "to": "AL42",
+      "weight": 0
+    },
+    {
+      "from": "AL42",
+      "to": "CY12",
+      "weight": 0
+    },
+    {
+      "from": "CY13",
+      "to": "SI43",
+      "weight": 0
+    },
+    {
+      "from": "SI43",
+      "to": "CY13",
+      "weight": 0
+    },
+    {
+      "from": "CY14",
+      "to": "BO21",
+      "weight": 0
+    },
+    {
+      "from": "BO21",
+      "to": "CY14",
+      "weight": 0
+    },
+    {
+      "from": "CY21",
+      "to": "SA32",
+      "weight": 0
+    },
+    {
+      "from": "SA32",
+      "to": "CY21",
+      "weight": 0
+    },
+    {
+      "from": "CY22",
+      "to": "AL23",
+      "weight": 0
+    },
+    {
+      "from": "AL23",
+      "to": "CY22",
+      "weight": 0
+    },
+    {
+      "from": "CY23",
+      "to": "OR23",
+      "weight": 0
+    },
+    {
+      "from": "OR23",
+      "to": "CY23",
+      "weight": 0
+    },
+    {
+      "from": "CY24",
+      "to": "VO33",
+      "weight": 0
+    },
+    {
+      "from": "VO33",
+      "to": "CY24",
+      "weight": 0
+    },
+    {
+      "from": "CY31",
+      "to": "MA11",
+      "weight": 0
+    },
+    {
+      "from": "MA11",
+      "to": "CY31",
+      "weight": 0
+    },
+    {
+      "from": "CY32",
+      "to": "ATB33",
+      "weight": 0
+    },
+    {
+      "from": "ATB33",
+      "to": "CY32",
+      "weight": 0
+    },
+    {
+      "from": "CY33",
+      "to": "AQ31",
+      "weight": 0
+    },
+    {
+      "from": "AQ31",
+      "to": "CY33",
+      "weight": 0
+    },
+    {
+      "from": "CY34",
+      "to": "ATA33",
+      "weight": 0
+    },
+    {
+      "from": "ATA33",
+      "to": "CY34",
+      "weight": 0
+    },
+    {
+      "from": "CY41",
+      "to": "ER42",
+      "weight": 0
+    },
+    {
+      "from": "ER42",
+      "to": "CY41",
+      "weight": 0
+    },
+    {
+      "from": "CY42",
+      "to": "ER33",
+      "weight": 0
+    },
+    {
+      "from": "ER33",
+      "to": "CY42",
+      "weight": 0
+    },
+    {
+      "from": "CY43",
+      "to": "PE42",
+      "weight": 0
+    },
+    {
+      "from": "PE42",
+      "to": "CY43",
+      "weight": 0
+    },
+    {
+      "from": "CY44",
+      "to": "PE21",
+      "weight": 0
+    },
+    {
+      "from": "PE21",
+      "to": "CY44",
+      "weight": 0
+    },
+    {
+      "from": "ER11",
+      "to": "AU43",
+      "weight": 0
+    },
+    {
+      "from": "AU43",
+      "to": "ER11",
+      "weight": 0
+    },
+    {
+      "from": "ER12",
+      "to": "SI24",
+      "weight": 0
+    },
+    {
+      "from": "SI24",
+      "to": "ER12",
+      "weight": 0
+    },
+    {
+      "from": "ER13",
+      "to": "ATA11",
+      "weight": 0
+    },
+    {
+      "from": "ATA11",
+      "to": "ER13",
+      "weight": 0
+    },
+    {
+      "from": "ER14",
+      "to": "ATA31",
+      "weight": 0
+    },
+    {
+      "from": "ATA31",
+      "to": "ER14",
+      "weight": 0
+    },
+    {
+      "from": "ER21",
+      "to": "SA22",
+      "weight": 0
+    },
+    {
+      "from": "SA22",
+      "to": "ER21",
+      "weight": 0
+    },
+    {
+      "from": "ER22",
+      "to": "PE12",
+      "weight": 0
+    },
+    {
+      "from": "PE12",
+      "to": "ER22",
+      "weight": 0
+    },
+    {
+      "from": "ER23",
+      "to": "ATC11",
+      "weight": 0
+    },
+    {
+      "from": "ATC11",
+      "to": "ER23",
+      "weight": 0
+    },
+    {
+      "from": "ER24",
+      "to": "HE43",
+      "weight": 0
+    },
+    {
+      "from": "HE43",
+      "to": "ER24",
+      "weight": 0
+    },
+    {
+      "from": "ER31",
+      "to": "AQ43",
+      "weight": 0
+    },
+    {
+      "from": "AQ43",
+      "to": "ER31",
+      "weight": 0
+    },
+    {
+      "from": "ER32",
+      "to": "AU24",
+      "weight": 0
+    },
+    {
+      "from": "AU24",
+      "to": "ER32",
+      "weight": 0
+    },
+    {
+      "from": "ER33",
+      "to": "CY42",
+      "weight": 0
+    },
+    {
+      "from": "CY42",
+      "to": "ER33",
+      "weight": 0
+    },
+    {
+      "from": "ER34",
+      "to": "PE43",
+      "weight": 0
+    },
+    {
+      "from": "PE43",
+      "to": "ER34",
+      "weight": 0
+    },
+    {
+      "from": "ER41",
+      "to": "HE23",
+      "weight": 0
+    },
+    {
+      "from": "HE23",
+      "to": "ER41",
+      "weight": 0
+    },
+    {
+      "from": "ER42",
+      "to": "CY41",
+      "weight": 0
+    },
+    {
+      "from": "CY41",
+      "to": "ER42",
+      "weight": 0
+    },
+    {
+      "from": "ER43",
+      "to": "AU33",
+      "weight": 0
+    },
+    {
+      "from": "AU33",
+      "to": "ER43",
+      "weight": 0
+    },
+    {
+      "from": "ER44",
+      "to": "ATB44",
+      "weight": 0
+    },
+    {
+      "from": "ATB44",
+      "to": "ER44",
+      "weight": 0
+    },
+    {
+      "from": "HE11",
+      "to": "MA22",
+      "weight": 0
+    },
+    {
+      "from": "MA22",
+      "to": "HE11",
+      "weight": 0
+    },
+    {
+      "from": "HE12",
+      "to": "ATA22",
+      "weight": 0
+    },
+    {
+      "from": "ATA22",
+      "to": "HE12",
+      "weight": 0
+    },
+    {
+      "from": "HE13",
+      "to": "PE34",
+      "weight": 0
+    },
+    {
+      "from": "PE34",
+      "to": "HE13",
+      "weight": 0
+    },
+    {
+      "from": "HE14",
+      "to": "ATB31",
+      "weight": 0
+    },
+    {
+      "from": "ATB31",
+      "to": "HE14",
+      "weight": 0
+    },
+    {
+      "from": "HE21",
+      "to": "HE33",
+      "weight": 0
+    },
+    {
+      "from": "HE33",
+      "to": "HE21",
+      "weight": 0
+    },
+    {
+      "from": "HE22",
+      "to": "ATA21",
+      "weight": 0
+    },
+    {
+      "from": "ATA21",
+      "to": "HE22",
+      "weight": 0
+    },
+    {
+      "from": "HE23",
+      "to": "EI41",
+      "weight": 0
+    },
+    {
+      "from": "EI41",
+      "to": "HE23",
+      "weight": 0
+    },
+    {
+      "from": "HE24",
+      "to": "SA23",
+      "weight": 0
+    },
+    {
+      "from": "SA23",
+      "to": "HE24",
+      "weight": 0
+    },
+    {
+      "from": "HE31",
+      "to": "MA34",
+      "weight": 0
+    },
+    {
+      "from": "MA34",
+      "to": "HE31",
+      "weight": 0
+    },
+    {
+      "from": "HE32",
+      "to": "PE14",
+      "weight": 0
+    },
+    {
+      "from": "PE14",
+      "to": "HE32",
+      "weight": 0
+    },
+    {
+      "from": "HE33",
+      "to": "HE21",
+      "weight": 0
+    },
+    {
+      "from": "HE21",
+      "to": "HE33",
+      "weight": 0
+    },
+    {
+      "from": "HE34",
+      "to": "PE23",
+      "weight": 0
+    },
+    {
+      "from": "PE23",
+      "to": "HE34",
+      "weight": 0
+    },
+    {
+      "from": "HE41",
+      "to": "SI21",
+      "weight": 0
+    },
+    {
+      "from": "SI21",
+      "to": "HE41",
+      "weight": 0
+    },
+    {
+      "from": "HE42",
+      "to": "ATB41",
+      "weight": 0
+    },
+    {
+      "from": "ATB41",
+      "to": "HE42",
+      "weight": 0
+    },
+    {
+      "from": "HE43",
+      "to": "ER24",
+      "weight": 0
+    },
+    {
+      "from": "ER24",
+      "to": "HE43",
+      "weight": 0
+    },
+    {
+      "from": "HE44",
+      "to": "AL41",
+      "weight": 0
+    },
+    {
+      "from": "AL41",
+      "to": "HE44",
+      "weight": 0
+    },
+    {
+      "from": "MA11",
+      "to": "CY31",
+      "weight": 0
+    },
+    {
+      "from": "CY31",
+      "to": "MA11",
+      "weight": 0
+    },
+    {
+      "from": "MA12",
+      "to": "ATB11",
+      "weight": 0
+    },
+    {
+      "from": "ATB11",
+      "to": "MA12",
+      "weight": 0
+    },
+    {
+      "from": "MA13",
+      "to": "ATB12",
+      "weight": 0
+    },
+    {
+      "from": "ATB12",
+      "to": "MA13",
+      "weight": 0
+    },
+    {
+      "from": "MA14",
+      "to": "VO11",
+      "weight": 0
+    },
+    {
+      "from": "VO11",
+      "to": "MA14",
+      "weight": 0
+    },
+    {
+      "from": "MA21",
+      "to": "AL13",
+      "weight": 0
+    },
+    {
+      "from": "AL13",
+      "to": "MA21",
+      "weight": 0
+    },
+    {
+      "from": "MA22",
+      "to": "HE11",
+      "weight": 0
+    },
+    {
+      "from": "HE11",
+      "to": "MA22",
+      "weight": 0
+    },
+    {
+      "from": "MA23",
+      "to": "ATA41",
+      "weight": 0
+    },
+    {
+      "from": "ATA41",
+      "to": "MA23",
+      "weight": 0
+    },
+    {
+      "from": "MA24",
+      "to": "ATV23",
+      "weight": 0
+    },
+    {
+      "from": "ATV23",
+      "to": "MA24",
+      "weight": 0
+    },
+    {
+      "from": "MA31",
+      "to": "ATB42",
+      "weight": 0
+    },
+    {
+      "from": "ATB42",
+      "to": "MA31",
+      "weight": 0
+    },
+    {
+      "from": "MA32",
+      "to": "MA42",
+      "weight": 0
+    },
+    {
+      "from": "MA42",
+      "to": "MA32",
+      "weight": 0
+    },
+    {
+      "from": "MA33",
+      "to": "SI12",
+      "weight": 0
+    },
+    {
+      "from": "SI12",
+      "to": "MA33",
+      "weight": 0
+    },
+    {
+      "from": "MA34",
+      "to": "HE31",
+      "weight": 0
+    },
+    {
+      "from": "HE31",
+      "to": "MA34",
+      "weight": 0
+    },
+    {
+      "from": "MA41",
+      "to": "OR33",
+      "weight": 0
+    },
+    {
+      "from": "OR33",
+      "to": "MA41",
+      "weight": 0
+    },
+    {
+      "from": "MA42",
+      "to": "MA32",
+      "weight": 0
+    },
+    {
+      "from": "MA32",
+      "to": "MA42",
+      "weight": 0
+    },
+    {
+      "from": "MA43",
+      "to": "AQ12",
+      "weight": 0
+    },
+    {
+      "from": "AQ12",
+      "to": "MA43",
+      "weight": 0
+    },
+    {
+      "from": "MA44",
+      "to": "BO24",
+      "weight": 0
+    },
+    {
+      "from": "BO24",
+      "to": "MA44",
+      "weight": 0
+    },
+    {
+      "from": "OR11",
+      "to": "ATB32",
+      "weight": 0
+    },
+    {
+      "from": "ATB32",
+      "to": "OR11",
+      "weight": 0
+    },
+    {
+      "from": "OR12",
+      "to": "ATB22",
+      "weight": 0
+    },
+    {
+      "from": "ATB22",
+      "to": "OR12",
+      "weight": 0
+    },
+    {
+      "from": "OR13",
+      "to": "ATC24",
+      "weight": 0
+    },
+    {
+      "from": "ATC24",
+      "to": "OR13",
+      "weight": 0
+    },
+    {
+      "from": "OR14",
+      "to": "VO24",
+      "weight": 0
+    },
+    {
+      "from": "VO24",
+      "to": "OR14",
+      "weight": 0
+    },
+    {
+      "from": "OR21",
+      "to": "SA14",
+      "weight": 0
+    },
+    {
+      "from": "SA14",
+      "to": "OR21",
+      "weight": 0
+    },
+    {
+      "from": "OR22",
+      "to": "VO22",
+      "weight": 0
+    },
+    {
+      "from": "VO22",
+      "to": "OR22",
+      "weight": 0
+    },
+    {
+      "from": "OR23",
+      "to": "CY23",
+      "weight": 0
+    },
+    {
+      "from": "CY23",
+      "to": "OR23",
+      "weight": 0
+    },
+    {
+      "from": "OR24",
+      "to": "ATC44",
+      "weight": 0
+    },
+    {
+      "from": "ATC44",
+      "to": "OR24",
+      "weight": 0
+    },
+    {
+      "from": "OR31",
+      "to": "ATB23",
+      "weight": 0
+    },
+    {
+      "from": "ATB23",
+      "to": "OR31",
+      "weight": 0
+    },
+    {
+      "from": "OR32",
+      "to": "PE11",
+      "weight": 0
+    },
+    {
+      "from": "PE11",
+      "to": "OR32",
+      "weight": 0
+    },
+    {
+      "from": "OR33",
+      "to": "MA41",
+      "weight": 0
+    },
+    {
+      "from": "MA41",
+      "to": "OR33",
+      "weight": 0
+    },
+    {
+      "from": "OR34",
+      "to": "AL12",
+      "weight": 0
+    },
+    {
+      "from": "AL12",
+      "to": "OR34",
+      "weight": 0
+    },
+    {
+      "from": "OR41",
+      "to": "BO32",
+      "weight": 0
+    },
+    {
+      "from": "BO32",
+      "to": "OR41",
+      "weight": 0
+    },
+    {
+      "from": "OR42",
+      "to": "CY11",
+      "weight": 0
+    },
+    {
+      "from": "CY11",
+      "to": "OR42",
+      "weight": 0
+    },
+    {
+      "from": "OR43",
+      "to": "ATC11",
+      "weight": 0
+    },
+    {
+      "from": "ATC11",
+      "to": "OR43",
+      "weight": 0
+    },
+    {
+      "from": "OR44",
+      "to": "ATC22",
+      "weight": 0
+    },
+    {
+      "from": "ATC22",
+      "to": "OR44",
+      "weight": 0
+    },
+    {
+      "from": "PE11",
+      "to": "OR32",
+      "weight": 0
+    },
+    {
+      "from": "OR32",
+      "to": "PE11",
+      "weight": 0
+    },
+    {
+      "from": "PE12",
+      "to": "ER22",
+      "weight": 0
+    },
+    {
+      "from": "ER22",
+      "to": "PE12",
+      "weight": 0
+    },
+    {
+      "from": "PE13",
+      "to": "AU32",
+      "weight": 0
+    },
+    {
+      "from": "AU32",
+      "to": "PE13",
+      "weight": 0
+    },
+    {
+      "from": "PE14",
+      "to": "HE32",
+      "weight": 0
+    },
+    {
+      "from": "HE32",
+      "to": "PE14",
+      "weight": 0
+    },
+    {
+      "from": "PE21",
+      "to": "CY44",
+      "weight": 0
+    },
+    {
+      "from": "CY44",
+      "to": "PE21",
+      "weight": 0
+    },
+    {
+      "from": "PE22",
+      "to": "AU13",
+      "weight": 0
+    },
+    {
+      "from": "AU13",
+      "to": "PE22",
+      "weight": 0
+    },
+    {
+      "from": "PE23",
+      "to": "HE34",
+      "weight": 0
+    },
+    {
+      "from": "HE34",
+      "to": "PE23",
+      "weight": 0
+    },
+    {
+      "from": "PE24",
+      "to": "BO43",
+      "weight": 0
+    },
+    {
+      "from": "BO43",
+      "to": "PE24",
+      "weight": 0
+    },
+    {
+      "from": "PE31",
+      "to": "VO21",
+      "weight": 0
+    },
+    {
+      "from": "VO21",
+      "to": "PE31",
+      "weight": 0
+    },
+    {
+      "from": "PE32",
+      "to": "ATC33",
+      "weight": 0
+    },
+    {
+      "from": "ATC33",
+      "to": "PE32",
+      "weight": 0
+    },
+    {
+      "from": "PE33",
+      "to": "SA44",
+      "weight": 0
+    },
+    {
+      "from": "SA44",
+      "to": "PE33",
+      "weight": 0
+    },
+    {
+      "from": "PE34",
+      "to": "HE13",
+      "weight": 0
+    },
+    {
+      "from": "HE13",
+      "to": "PE34",
+      "weight": 0
+    },
+    {
+      "from": "PE41",
+      "to": "ATC14",
+      "weight": 0
+    },
+    {
+      "from": "ATC14",
+      "to": "PE41",
+      "weight": 0
+    },
+    {
+      "from": "PE42",
+      "to": "CY43",
+      "weight": 0
+    },
+    {
+      "from": "CY43",
+      "to": "PE42",
+      "weight": 0
+    },
+    {
+      "from": "PE43",
+      "to": "ER34",
+      "weight": 0
+    },
+    {
+      "from": "ER34",
+      "to": "PE43",
+      "weight": 0
+    },
+    {
+      "from": "PE44",
+      "to": "ATB21",
+      "weight": 0
+    },
+    {
+      "from": "ATB21",
+      "to": "PE44",
+      "weight": 0
+    },
+    {
+      "from": "SA11",
+      "to": "SI33",
+      "weight": 0
+    },
+    {
+      "from": "SI33",
+      "to": "SA11",
+      "weight": 0
+    },
+    {
+      "from": "SA12",
+      "to": "ATC42",
+      "weight": 0
+    },
+    {
+      "from": "ATC42",
+      "to": "SA12",
+      "weight": 0
+    },
+    {
+      "from": "SA13",
+      "to": "AL43",
+      "weight": 0
+    },
+    {
+      "from": "AL43",
+      "to": "SA13",
+      "weight": 0
+    },
+    {
+      "from": "SA14",
+      "to": "OR21",
+      "weight": 0
+    },
+    {
+      "from": "OR21",
+      "to": "SA14",
+      "weight": 0
+    },
+    {
+      "from": "SA21",
+      "to": "ATC22",
+      "weight": 0
+    },
+    {
+      "from": "ATC22",
+      "to": "SA21",
+      "weight": 0
+    },
+    {
+      "from": "SA22",
+      "to": "ER21",
+      "weight": 0
+    },
+    {
+      "from": "ER21",
+      "to": "SA22",
+      "weight": 0
+    },
+    {
+      "from": "SA23",
+      "to": "HE24",
+      "weight": 0
+    },
+    {
+      "from": "HE24",
+      "to": "SA23",
+      "weight": 0
+    },
+    {
+      "from": "SA24",
+      "to": "AU23",
+      "weight": 0
+    },
+    {
+      "from": "AU23",
+      "to": "SA24",
+      "weight": 0
+    },
+    {
+      "from": "SA31",
+      "to": "SI11",
+      "weight": 0
+    },
+    {
+      "from": "SI11",
+      "to": "SA31",
+      "weight": 0
+    },
+    {
+      "from": "SA32",
+      "to": "CY21",
+      "weight": 0
+    },
+    {
+      "from": "CY21",
+      "to": "SA32",
+      "weight": 0
+    },
+    {
+      "from": "SA33",
+      "to": "ATB43",
+      "weight": 0
+    },
+    {
+      "from": "ATB43",
+      "to": "SA33",
+      "weight": 0
+    },
+    {
+      "from": "SA34",
+      "to": "AQ22",
+      "weight": 0
+    },
+    {
+      "from": "AQ22",
+      "to": "SA34",
+      "weight": 0
+    },
+    {
+      "from": "SA41",
+      "to": "VO44",
+      "weight": 0
+    },
+    {
+      "from": "VO44",
+      "to": "SA41",
+      "weight": 0
+    },
+    {
+      "from": "SA42",
+      "to": "SI42",
+      "weight": 0
+    },
+    {
+      "from": "SI42",
+      "to": "SA42",
+      "weight": 0
+    },
+    {
+      "from": "SA43",
+      "to": "ATC31",
+      "weight": 0
+    },
+    {
+      "from": "ATC31",
+      "to": "SA43",
+      "weight": 0
+    },
+    {
+      "from": "SA44",
+      "to": "PE33",
+      "weight": 0
+    },
+    {
+      "from": "PE33",
+      "to": "SA44",
+      "weight": 0
+    },
+    {
+      "from": "SI11",
+      "to": "SA31",
+      "weight": 0
+    },
+    {
+      "from": "SA31",
+      "to": "SI11",
+      "weight": 0
+    },
+    {
+      "from": "SI12",
+      "to": "MA33",
+      "weight": 0
+    },
+    {
+      "from": "MA33",
+      "to": "SI12",
+      "weight": 0
+    },
+    {
+      "from": "SI13",
+      "to": "AL21",
+      "weight": 0
+    },
+    {
+      "from": "AL21",
+      "to": "SI13",
+      "weight": 0
+    },
+    {
+      "from": "SI14",
+      "to": "ATB14",
+      "weight": 0
+    },
+    {
+      "from": "ATB14",
+      "to": "SI14",
+      "weight": 0
+    },
+    {
+      "from": "SI21",
+      "to": "HE41",
+      "weight": 0
+    },
+    {
+      "from": "HE41",
+      "to": "SI21",
+      "weight": 0
+    },
+    {
+      "from": "SI22",
+      "to": "AQ14",
+      "weight": 0
+    },
+    {
+      "from": "AQ14",
+      "to": "SI22",
+      "weight": 0
+    },
+    {
+      "from": "SI23",
+      "to": "AL24",
+      "weight": 0
+    },
+    {
+      "from": "AL24",
+      "to": "SI23",
+      "weight": 0
+    },
+    {
+      "from": "SI24",
+      "to": "ER12",
+      "weight": 0
+    },
+    {
+      "from": "ER12",
+      "to": "SI24",
+      "weight": 0
+    },
+    {
+      "from": "SI31",
+      "to": "ATA43",
+      "weight": 0
+    },
+    {
+      "from": "ATA43",
+      "to": "SI31",
+      "weight": 0
+    },
+    {
+      "from": "SI32",
+      "to": "BO13",
+      "weight": 0
+    },
+    {
+      "from": "BO13",
+      "to": "SI32",
+      "weight": 0
+    },
+    {
+      "from": "SI33",
+      "to": "SA11",
+      "weight": 0
+    },
+    {
+      "from": "SA11",
+      "to": "SI33",
+      "weight": 0
+    },
+    {
+      "from": "SI34",
+      "to": "ATA32",
+      "weight": 0
+    },
+    {
+      "from": "ATA32",
+      "to": "SI34",
+      "weight": 0
+    },
+    {
+      "from": "SI41",
+      "to": "AU22",
+      "weight": 0
+    },
+    {
+      "from": "AU22",
+      "to": "SI41",
+      "weight": 0
+    },
+    {
+      "from": "SI42",
+      "to": "SA42",
+      "weight": 0
+    },
+    {
+      "from": "SA42",
+      "to": "SI42",
+      "weight": 0
+    },
+    {
+      "from": "SI43",
+      "to": "CY13",
+      "weight": 0
+    },
+    {
+      "from": "CY13",
+      "to": "SI43",
+      "weight": 0
+    },
+    {
+      "from": "SI44",
+      "to": "ATA12",
+      "weight": 0
+    },
+    {
+      "from": "ATA12",
+      "to": "SI44",
+      "weight": 0
+    },
+    {
+      "from": "VO11",
+      "to": "MA14",
+      "weight": 0
+    },
+    {
+      "from": "MA14",
+      "to": "VO11",
+      "weight": 0
+    },
+    {
+      "from": "VO12",
+      "to": "VO42",
+      "weight": 0
+    },
+    {
+      "from": "VO42",
+      "to": "VO12",
+      "weight": 0
+    },
+    {
+      "from": "VO13",
+      "to": "ATC32",
+      "weight": 0
+    },
+    {
+      "from": "ATC32",
+      "to": "VO13",
+      "weight": 0
+    },
+    {
+      "from": "VO14",
+      "to": "BO41",
+      "weight": 0
+    },
+    {
+      "from": "BO41",
+      "to": "VO14",
+      "weight": 0
+    },
+    {
+      "from": "VO21",
+      "to": "PE31",
+      "weight": 0
+    },
+    {
+      "from": "PE31",
+      "to": "VO21",
+      "weight": 0
+    },
+    {
+      "from": "VO22",
+      "to": "OR22",
+      "weight": 0
+    },
+    {
+      "from": "OR22",
+      "to": "VO22",
+      "weight": 0
+    },
+    {
+      "from": "VO23",
+      "to": "AU11",
+      "weight": 0
+    },
+    {
+      "from": "AU11",
+      "to": "VO23",
+      "weight": 0
+    },
+    {
+      "from": "VO24",
+      "to": "OR14",
+      "weight": 0
+    },
+    {
+      "from": "OR14",
+      "to": "VO24",
+      "weight": 0
+    },
+    {
+      "from": "VO31",
+      "to": "VO41",
+      "weight": 0
+    },
+    {
+      "from": "VO41",
+      "to": "VO31",
+      "weight": 0
+    },
+    {
+      "from": "VO32",
+      "to": "AL31",
+      "weight": 0
+    },
+    {
+      "from": "AL31",
+      "to": "VO32",
+      "weight": 0
+    },
+    {
+      "from": "VO33",
+      "to": "CY24",
+      "weight": 0
+    },
+    {
+      "from": "CY24",
+      "to": "VO33",
+      "weight": 0
+    },
+    {
+      "from": "VO34",
+      "to": "AU12",
+      "weight": 0
+    },
+    {
+      "from": "AU12",
+      "to": "VO34",
+      "weight": 0
+    },
+    {
+      "from": "VO41",
+      "to": "VO31",
+      "weight": 0
+    },
+    {
+      "from": "VO31",
+      "to": "VO41",
+      "weight": 0
+    },
+    {
+      "from": "VO42",
+      "to": "VO12",
+      "weight": 0
+    },
+    {
+      "from": "VO12",
+      "to": "VO42",
+      "weight": 0
+    },
+    {
+      "from": "VO43",
+      "to": "AQ34",
+      "weight": 0
+    },
+    {
+      "from": "AQ34",
+      "to": "VO43",
+      "weight": 0
+    },
+    {
+      "from": "VO44",
+      "to": "SA41",
+      "weight": 0
+    },
+    {
+      "from": "SA41",
+      "to": "VO44",
+      "weight": 0
+    }
+  ]
+}
