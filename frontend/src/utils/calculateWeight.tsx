@@ -1,4 +1,5 @@
 import { DecodedAddress } from "./decodeAddress";
+import distanceInMapSector from "./distanceInMapSector";
 
 /**
  * Calculate the weight of a connection dynamically based on distance from the start.
@@ -13,20 +14,19 @@ const calculateWeight = (
   to: DecodedAddress,
   start: DecodedAddress
 ): number => {
-  // Calculate distances in terms of sectors
-  const distanceFromStart = Math.abs(from.sector - start.sector);
-  const distanceToTarget = Math.abs(to.sector - start.sector);
+  // "distanceFromStart" is how far the 'from' node is from the actual user start
+  const distanceFromStart = distanceInMapSector(from, start);
 
-  console.log('----------------------', 'Start Sector : ', start.sector);
-  console.log('----------------------', 'From Sector : ', from.sector);
-  console.log('----------------------', 'To Sector : ', to.sector);
+  // "distanceToTarget" is how far the 'to' node is from the user start
+  const distanceToTarget = distanceInMapSector(to, start);
 
-  // Base weight plus distance penalties
-  const weight = 1 + distanceFromStart + distanceToTarget;
-
-  console.log(`Weight calculated: From ${from.map}${from.sector} to ${to.map}${to.sector}, Weight: ${weight}`);
+  // Maybe the cost is:
+  //   base 1
+  // + from->to difference
+  // + some factor of how far from the user start
+  const fromTo = distanceInMapSector(from, to);
   
-  return weight;
+  return 1 + fromTo + (distanceFromStart + distanceToTarget) * 0.25;
 };
 
 export default calculateWeight;
